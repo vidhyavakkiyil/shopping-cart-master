@@ -39,7 +39,7 @@ function comprarCurso(e) {
 function leerDatosCurso(curso) {
   const infoCurso = {
     imagen: curso.querySelector('img').src,
-    titulo: curso.querySelector('h4').textContent,
+    titulo: curso.querySelector('span').textContent,
     precio: curso.querySelector('.discount').textContent,
     id: curso.querySelector('a').getAttribute('data-id')
   }
